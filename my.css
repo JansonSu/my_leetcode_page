@@ -1,0 +1,109 @@
+.WebHeader-bar{
+    flex: 1 1 auto;
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+}
+
+.Icon-image{
+    outline-offset: 100px;
+}
+
+.Title{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+#menu{
+    height: 100%;
+}
+
+#menu_title{
+    background: #202020;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+}
+
+.show-menu {
+    z-index: 100;
+    top: 60px;
+    background: #333333;
+    color: white;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.show-menu:target {
+    transform: translateX(0);
+}
+
+#P-list h3{
+    padding: 5px 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#hide-button{
+    position: fixed;
+    background: #202020;
+    left: 0;
+    z-index: 90;
+    height: 100%;
+}
+#hide-button-2{
+    position: fixed;
+    background: #202020;
+    top: 50%;
+    left: 0;
+    z-index: 90;
+
+}
+
+
+main{
+    background: white;
+    position: relative;
+    top: 60px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 80%;
+    height: 100%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: beige;
+    font-weight: bolder;
+}
+
+#h1{
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
